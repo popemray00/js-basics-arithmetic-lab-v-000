@@ -16,4 +16,4 @@ const randomNumber = Math.floor(Math.random() <=0 > 20)
 
 const randomInteger = Math.round(randomNumber)
 
-const randomUserID = randomInteger.isInteger()
+const randomUserID = randomInteger + 100000001
